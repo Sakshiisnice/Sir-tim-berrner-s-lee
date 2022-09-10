@@ -1,0 +1,83 @@
+body
+{
+ margin:0;   
+ padding-top: 550;
+ text-align: center;
+}
+.profile {
+    border-radius:50%;
+    margin-top:60px;
+}
+#welcome{
+    Position:absolute;
+    bottom:0;
+    background: linear-gradient(#ed9134 0%,#fa9bf5 100% );
+    display:table;
+    Width:100%;
+    Height:100%; 
+    
+}
+
+h1{
+    font: size 40px;
+    font-family: sans-serif;
+    font-weight:300;
+}
+#name{
+    font-size: 50px;
+    font-family:cursive
+}
+h2{
+    font: size 30px;
+    font-weight: 300px;
+    font-family: Special Elite;
+}
+#bio{
+    font-family: cursive;
+    padding:50px
+}
+.line{
+    height:6px;
+    background-color: aqua;
+    width:70px;
+    margin:8px auto;
+}
+.parellex-inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.menu{
+list-style: none;
+position: fixed;
+top:0px;
+z-index:10;
+cursor:pointer;
+background-color: aliceblue;
+width:100%;
+margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 25px;
+ 
+}
+.links:hover {
+font-size: 30px;
+text-decoration: underline;
+}
+#Writing a {
+    text-decoration: underline !important;
+    color: green !important; 
+}
+#contact iframe{
+    width:100%;
+
+}
+.contact_1 h3{
+ display:inline;
+}
+
+
+
